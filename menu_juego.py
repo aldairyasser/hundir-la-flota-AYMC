@@ -2,9 +2,6 @@ from tablero import mi_tablero_barcos, tu_tablero_barcos, mi_tablero_disparos
 from disparo import recibir_disparo, disparar, puedo_disparar, he_tocado, disparo1, disparo2
 import time
 
-# FILA, COLUMNA
-
-
 def menu():
     seguir = True
 

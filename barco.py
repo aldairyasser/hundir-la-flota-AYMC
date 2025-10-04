@@ -7,7 +7,6 @@ barco5 = 3
 
 barco6 = 4
 
-
 barcos = []
 barcos.append(barco1)
 barcos.append(barco2)
