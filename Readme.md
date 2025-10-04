@@ -25,6 +25,7 @@ Para disparar te pedira las coordenadas ***(x,y)***, primero te pedirá la *x*, 
 
 **!OJO¡**
 Las coordenadas funcionan de la siguiente manera:
+
 ![imagen](./img/Coordendas.png)
 
 Si le das al barco de la maquina, volverá a ser tu turno, te mostrará el menú otra vez.
