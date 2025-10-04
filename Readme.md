@@ -8,7 +8,7 @@ Proyecto **HUNDIR LA FLOTA** realizado por ALDAIR YASSER MC, juego de hundir la 
 
 ## ⚓️ REGLAS DEL JUEGO ⚓️
 
-Solamente tienes que ejecutar [```main.py```](AYMC/main.py)
+Solamente tienes que ejecutar [```main.py```](main.py)
 
 Si le has dado sin querer, primero te preguntará si quieres jugar, para que tengas la opción de salir.
 
@@ -40,17 +40,17 @@ El juego termina cuando ganas (has tocado todos sus barcos), cuando pierdes (la 
 
 ## 🗂️ ESTRUCTURA DEL PROYECTO 🗂️
 
-📄 [main.py](AYMC/main.py) --> Llama al menu_juego dando inicio a todo el programa
+📄 [main.py](main.py) --> Llama al menu_juego dando inicio a todo el programa
 
-📄 [menu_juego.py](AYMC/menu_juego.py) --> Muestra el menú del juego y es donde se llaman a las demás funciones
+📄 [menu_juego.py](menu_juego.py) --> Muestra el menú del juego y es donde se llaman a las demás funciones
 
-📄 [barco.py](AYMC/barco.py) --> Crea el tamaño de los barcos
+📄 [barco.py](barco.py) --> Crea el tamaño de los barcos
 
-📄 [colocar_barcos.py](AYMC/colocar_barcos.py) --> Defino las 2 funciones para colocar barcos de forma aleatoria y verificar que sea válido, que se llama dentro de la primera.
+📄 [colocar_barcos.py](colocar_barcos.py) --> Defino las 2 funciones para colocar barcos de forma aleatoria y verificar que sea válido, que se llama dentro de la primera.
 
-📄 [tablero.py](AYMC/tablero.py) --> Creo tableros vacíos y llama a colocar_barcos, para colocar los barcos de cada jugador, hay comentado diferentes casos de uso para el cierre del ciclo en caso de perder o ganar.
+📄 [tablero.py](tablero.py) --> Creo tableros vacíos y llama a colocar_barcos, para colocar los barcos de cada jugador, hay comentado diferentes casos de uso para el cierre del ciclo en caso de perder o ganar.
 
-📄 [disparo.py](AYMC/disparo.py) --> Defino funciones como recibir_disparo(), disparar(), puedo_disparar(), he_tocado() y también hay comentado diferentes casos de uso para el cierre del ciclo en caso de perder o ganar.
+📄 [disparo.py](disparo.py) --> Defino funciones como recibir_disparo(), disparar(), puedo_disparar(), he_tocado() y también hay comentado diferentes casos de uso para el cierre del ciclo en caso de perder o ganar.
 
 📁 img --> Carpeta de imagenes para readme
 
