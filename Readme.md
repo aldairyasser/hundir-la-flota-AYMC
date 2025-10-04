@@ -56,7 +56,7 @@ El juego termina cuando ganas (has tocado todos sus barcos), cuando pierdes (la 
 
 ---
 
-## 📚 IBRERIAS Y VERSIONES 📚
+## 📚 LIBRERIAS Y VERSIONES 📚
 
 Para ejecutar este programa tienes que tener instalado la libreria **numpy**
 
