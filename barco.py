@@ -1,3 +1,5 @@
+#Creamo el tamaño de todos los barcos
+
 barco1 = 2
 barco2 = 2
 barco3 = 2
@@ -7,7 +9,7 @@ barco5 = 3
 
 barco6 = 4
 
-barcos = []
+barcos = [] # Almacenamos en una lista los tamaños de barco
 barcos.append(barco1)
 barcos.append(barco2)
 barcos.append(barco3)

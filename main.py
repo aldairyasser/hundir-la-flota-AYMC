@@ -9,14 +9,13 @@ seguir = True
 
 while seguir:
     try:
-        desicion = int(input("¿Quieres jugar? (1/0): "))
-        if desicion == 1:
-            menu()
+        decision = int(input("¿Quieres jugar a hundir la flota? (1/0): "))
+        if decision == 1:
+            menu() #Llamada al menú
             break
-        else:
+        else: #No quiere jugar
             print("Adios")
             seguir = False
     except:
         print("Elección no válida")
-
 
